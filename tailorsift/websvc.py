@@ -24,7 +24,7 @@ notes_history = ""
 heading = [html.H2("🎸 TailorSIFT: Acronym Writer"),html.H5("Helping you stitch together acronyms that sound great")]
 
 api_key_group = dbc.InputGroup([dbc.InputGroupText("OpenAI API Key:"),
-                                dbc.Input("api-key", value="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"),
+                                dbc.Input("api-key", value=""),
                                 dbc.Button("unlock", id="unlock-button", n_clicks=0)],
                                className="mb-3")
 
