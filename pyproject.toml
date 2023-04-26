@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "tailorsift"
+version = "0.1.0"
+description = ""
+authors = ["Vasanth Sarathy <vsarathy@sift.net>"]
+
+[tool.poetry.scripts]
+ts = 'tailorsift.cli:main'
+
+[tool.poetry.dependencies]
+python = "^3.8"
+click = "^8.1.3"
+pynvim = "^0.4.3"
+pandas = "^1.5.1"
+jupyter = "^1.0.0"
+ipykernel = "^6.16.1"
+dash = "^2.6.2"
+dash-bootstrap-components = "^1.2.1"
+openai = "^0.24.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
